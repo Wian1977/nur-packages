@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     sha256 = "7bf957d62976dcea1f521cf6c8ad99be51f3c6dc626758c850c8e0c7db0d867b";
   };
 
-  nativeBuildInputs = [ wrapGAppsHook gobject-introspection makeWrapper desktop-file-utils ];
+  nativeBuildInputs = [ wrapGAppsHook3 gobject-introspection makeWrapper desktop-file-utils ];
   buildInputs = [ gtk3 libGL python ];
 
   dontConfigure = true;
