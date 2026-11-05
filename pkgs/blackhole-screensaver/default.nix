@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchurl, python3, gtk3, libGL, wrapGAppsHook,
+{ lib, stdenv, fetchurl, python3, gtk3, libGL, wrapGAppsHook3,
   gobject-introspection, makeWrapper, desktop-file-utils }:
 
 let
