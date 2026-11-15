@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with lib; {
-    description = "Apple Music in the terminal with true-color cover art and spectrum";
+    description = "Apple Music in the terminal with true-color cover art and a live spectrum";
     homepage = "https://github.com/Wian1977/miniam";
     platforms = [ "x86_64-linux" ];
     mainProgram = "miniam";
