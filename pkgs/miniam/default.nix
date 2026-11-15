@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation rec {
   pname = "miniam";
-  version = "0.1.0";
+  version = "0.1.1";
 
   src = fetchurl {
     url = "https://github.com/Wian1977/miniam/releases/download/v0.1.1/miniam-v0.1.1-linux-x86_64.tar.gz";
