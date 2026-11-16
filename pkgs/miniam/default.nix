@@ -2,11 +2,11 @@
 
 stdenv.mkDerivation rec {
   pname = "miniam";
-  version = "0.1.1";
+  version = "0.1.2";
 
   src = fetchurl {
-    url = "https://github.com/Wian1977/miniam/releases/download/v0.1.1/miniam-v0.1.1-linux-x86_64.tar.gz";
-    sha256 = "a923813c2a9878639c4b03bff861490d5978ec1e9cc121d57721b351553a1204";
+    url = "https://github.com/Wian1977/miniam/releases/download/v0.1.2/miniam-v0.1.2-linux-x86_64.tar.gz";
+    sha256 = "04f9c388436148b1aa074a760e987e85464343e21d1d449ee9b7f9670d9fb8b3";
   };
 
   nativeBuildInputs = [ autoPatchelfHook ];
